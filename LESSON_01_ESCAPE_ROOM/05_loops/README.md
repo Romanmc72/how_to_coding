@@ -133,6 +133,10 @@ or even more simply:
 number_of_scoops = int(input(f"How many scoops of {favorite_flavor} do you want? "))
 ```
 
+#### (optional)
+
+What happens if you put something into the answer that is not a number? Look into `try` and `except` to figure out how to handle that scenario. Otherwise keep going!
+
 ### Step 2
 
 Now that we have acquired the number of scoop that the person wants, we can give them exactly that many scoops. Here is how!
@@ -166,7 +170,7 @@ for scoop_number in range(number_of_scoops):
 
 ### Step 3 (optional)
 
-That all happens pretty fast, like less than a second to scoop however many scoops you say. Even 100! If we wanted to make it a little more realistic by making it take a little break between scoops then we can use the `sleep()` function to make the program wait between scoops. `sleep()` takes one argument, and that is the number of seconds you want it to "sleep" (or wait) for before it runs the next command. Let's make it wait for a half second. We can write that as either `1 / 2` or `0.5` it is the same either way. However we come to another topic here...
+That all happens pretty fast, like less than a second to scoop however many scoops you say. Even 100! If we wanted to make it a little more realistic by making it take a little break between scoops, then we can use the `sleep()` function to make the program wait between scoops. `sleep()` takes one argument, and that is the number of seconds you want it to "sleep" (or wait) for before it runs the next command. Let's make it wait for a half second. We can write that as either `1 / 2` or `0.5` it is the same either way. However we come to another topic here...
 
 #### import
 

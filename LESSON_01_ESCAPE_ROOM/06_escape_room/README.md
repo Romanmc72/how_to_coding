@@ -4,7 +4,7 @@ We made it! You now have everything that you need in order to design an escape r
 
 ## Making the Game
 
-I am not really going to force you to make the escape room and particular way. I have a very loose escape room program that I will share here. Feel free to steal this one and modify it or completely start from scratch and make your own.
+I am not really going to force you to make the escape room any particular way. I have a very loose escape room program that I will share here. Feel free to steal this one and modify it or completely start from scratch and make your own.
 
 Initial starting point:
 

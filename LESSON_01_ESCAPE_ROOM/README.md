@@ -1,6 +1,6 @@
 # Escape Room
 
-We will go through a few lessons here to create an escape room style game! First we mus learn a few things.
+We will go through a few lessons here to create an escape room style game! Beware that this game will not have any fancy graphics. None. It will be all text based. It will be fun I hope. First we mus learn a few things.
 
 ## Using this Curriculum
 
