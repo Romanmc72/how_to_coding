@@ -45,7 +45,15 @@ else:
     print("You my friend, have terrible taste.")
 ```
 
-### Step 3
+### What is this??? 
+
+This is a "conditional" where our program checks to see if a certain condition is `True` or `False`. If it is `True`, it will do one thing, and if it is `False` we con do something completely different.
+
+You will notice that there are 4 spaces before we print the judgemental sentence. Why is this? There is also a colon `:` after the `if` condition and after the `else`, what's that? And that `==` what is that, why are there 2 `=`?
+
+Great questions. So in Python, 4 spaces is known as "whitespace" or space with nothing in it, and sometimes when you see a `:` it tells you that the next part of the code is part of the "block" for this statement / condition and will you need 4 white-spaces. Once the next line of code comes that does not have 4 white-spaces, then Python knows that the "block" is finished. So for `if` and `else`, if our `if` is `True` then all of the things that have 4 white-spaces that come right after the `if` will be run as part of that "block". If the `if` is `False` then the `else` "block" will run all of the things with 4 white-spaces that come right after it. As for the `==`, the 2 `=` signs mean we want to check if something is the same. Just 1 `=` sign means we are assigning something to a variable. 2 `=`s gives you a check which can either be `True` or `False` (which we call a `boolean`).
+
+### Run it!
 
 Let's run it and see if we can get the thing right:
 
@@ -60,12 +68,7 @@ else:
 
 pretty neat!
 
-You will notice that there are 4 spaces before we print the judgemental sentence. Why is this? There is also a colon `:` after the `if` condition and after the `else`, what's that? And that `==` what is that, why are there 2 `=`?
-
-Great questions. So in Python, 4 spaces is known as "whitespace" or space with nothing in it, and sometimes when you see a `:` it tells you that the next part of the code is part of the "block" for this statement / condition and will you need 4 white-spaces. Once the next line of code comes that does not have 4 white-spaces, then Python knows that the "block" is finished. So for `if` and `else`, if our `if` is `True` then all of the things that have 4 white-spaces that come right after the `if` will be run as part of that "block". If the `if` is `False` then the `else` "block" will run all of the things with 4 white-spaces that come right after it. As for the `==`, the 2 `=` signs mean we want to check if something is the same. Just 1 `=` sign means we are assigning something to a variable. 2 `=`s gives you a check which can either be `True` or `False` (which we call a `boolean`).
-
-
-### Step 4
+### Step 3
 
 Now, let's say we want to give them something in between great and terrible. Perhaps there are a few flavors that are *fine*. I will submit to you that the list of *fine* flavors includes "strawberry", "chocolate", and "mint chocolate chip". Maybe you have a few more ideas. There are a few ways we can add something like this. Let's take a look!
 
@@ -144,7 +147,9 @@ decent_flavors = [
 ]
 ```
 
-now that we have a list, and we have someone's favorite flavor, instead of doing three `elif` checks just to `print` the same thing, we can just do one! That will look like this:
+> Notice that the list is indicated by a square bracket `[]` and each element or item within the list is separated by a comma `,`. That is how we tell python that we have a list, and how we keep the things in the list separate.
+
+Now that we have a list, and we have someone's favorite flavor, instead of doing three `elif` checks just to `print` the same thing, we can just do one! That will look like this:
 
 ```python3
 favorite_flavor = input("What is your favorite Ice Cream flavor? ")

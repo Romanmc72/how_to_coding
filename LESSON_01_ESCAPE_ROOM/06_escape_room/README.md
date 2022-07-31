@@ -9,9 +9,11 @@ I am not really going to force you to make the escape room and particular way. I
 Initial starting point:
 
 ```python3
+# Import some things to use
 from time import sleep
 from random import randint
 
+# Set a few variables
 game_over = False
 window = 1
 padlock = 2
@@ -24,6 +26,8 @@ padlock = 2
 # few digits are zero.
 padlock_combination = str(randint(0, 9999)).zfill(4)
 
+# This is the game loop, it will continue to run the code in here until
+# game_over = True (remember we set it to False at the start)
 while not game_over:
     where_to_look = int(
         input(f"""Where do you want to go? (type the number)
@@ -48,6 +52,9 @@ while not game_over:
         sleep(1)
     elif where_to_look == padlock:
         attempted_combination = input("Try the lock, it is 4 digits: ")
+        # Look at this, a conditional within a conditional!!!
+        # You can nest conditionals as deep as you want, and you can
+        # do it with loops too!
         if attempted_combination == padlock_combination:
             print("It unlocked!!!")
             game_over = True
@@ -55,7 +62,12 @@ while not game_over:
         else:
             print("It will not budge.")
             sleep(1)
+    else:
+        print("I don't know what you are saying, pick a number form the list.")
+        sleep(1)
 
+# Notice that this code is not indented. That means it will not run inside
+# the loop above, but will only run after the loop finishes.
 print("You Escaped! Congrats.")
 sleep(1)
 print("Now go catch that chicken.")
