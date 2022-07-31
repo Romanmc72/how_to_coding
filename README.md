@@ -4,7 +4,7 @@ Come with me and learn some Python!
 
 I made this for my nephews who wanted to build a video game. This will take some time and a lot of lessons / smaller steps along the way.
 
-Have someone help you clone this repository to get started and follow along for the lessons in order to create several types of games as an interactive way of learning Python.
+Have someone help you clone this repository to get started and follow along for the lessons in order to create several types of games as an interactive way of learning Python. Or honestly just browse the lessons folders here in order and follow along that way.
 
 # Prerequisites
 
