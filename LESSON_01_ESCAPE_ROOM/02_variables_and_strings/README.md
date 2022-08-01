@@ -15,6 +15,8 @@ print("Hello World!")
 print("Goodbye World!")
 ```
 
+Run it and check it out. Cool, right? Maybe not that cool yet, but bear with me. It is important to understand that programs will always execute from the first instruction all the way down to the last one.
+
 ### Step 2
 
 Now, let's take the word `World` our of the `print` statements and add it on it's own line above the print statements in quotes, then call it something. What we call it doesn't really matter, but since we'll say hello/goodbye to this word, we'll call it `greeting` for now. So this next part should look like this:
