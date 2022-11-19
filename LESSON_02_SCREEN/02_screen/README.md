@@ -4,7 +4,7 @@ Okay, okay, now I promise we will put things on the screen with the curses.
 
 ## Starter Pack
 
-Here is the initial code ot run a curses program:
+Here is the initial code to run a curses program:
 
 ### Step 1
 
