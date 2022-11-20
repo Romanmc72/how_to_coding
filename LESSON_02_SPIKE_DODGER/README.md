@@ -1,6 +1,6 @@
-# Screen
+# Spike Dodger
 
-This game will cover the coordinate plane and will let us actually create a character on the screen which we can control using the keyboard. We will make it so this character is responsive to our commands, and maybe put some cookies on the screen for our character to eat. We will see if we get that ambitious...
+This game will cover the coordinate plane and will let us actually create a character on the screen which we can control using the keyboard. We will make it so this character is responsive to our commands, and maybe put some spikes on the screen to drop on our characters head. We will see if we get that ambitious...
 
 ## Using this lesson
 
