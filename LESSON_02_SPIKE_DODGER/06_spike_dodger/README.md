@@ -54,5 +54,6 @@ See if you can add some of the following features:
     - (hint: remember the `random` library from the escape room? use that probably.)
 - There is a counter on the screen keeping track of how many spikes hit the floor
 - The game ends if the spike hits the player
+- Extra challenge, can you make more spikes appear every time you dodge one?
 
 Also, don't forget about the edges of the screen!
