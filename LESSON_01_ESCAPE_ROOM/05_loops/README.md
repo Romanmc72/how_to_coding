@@ -23,7 +23,7 @@ else:
     print(judgement.format(taste="terrible"))
 ```
 
-And we will server this person a new scoop of ice cream until they are full. Let's try it out!
+And we will serve this person a new scoop of ice cream until they are full. Let's try it out!
 
 ### Step 1
 
@@ -124,7 +124,7 @@ So to modify the above, we would actually do this:
 
 ```python3
 number_of_scoops = input(f"How many scoops of {favorite_flavor} do you want? ")
-number_of_scoops - int(number_of_scoops)
+number_of_scoops = int(number_of_scoops)
 ```
 
 or even more simply:
